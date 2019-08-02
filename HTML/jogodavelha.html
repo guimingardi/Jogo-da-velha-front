@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Velha </title>
+    <link rel="stylesheet" href="../CSS/jogodavelha.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="icon" href="../imagens/X.png">
+
+
+</head>
+
+<body>
+
+    <header id="history">
+        <a href="index.html" onclick="sair()"><img class="logo" src="../imagens/X.png"
+                alt="Quadrado azul com as letras X e O"></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" onclick="sair()">Início</a></li>
+                <li> <a href="index.html" onclick="sair()"> Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="pop_up">
+                <h1 class="velha">Shiii... Deu velha</h1>
+                <h1 class="ganhador">Jogador <b class="vencedor"></b> ganhou o jogo!</h1>
+                <img class="trofeu" src="../imagens/icon.png" alt="Imagem de uma mã segurando um troféu">
+                <img class="velhaft" src="../imagens/sad.png" alt="">
+                <h2 class="restart"><a href="">Recomeçar</a></h2>
+            </div>
+            <div class="container">
+                <h1>JOGO DA VELHA</h1>
+
+                <div class="line-one">
+                    <div class="box ">
+                        <img></div>
+                    <div class="box lf rt">
+                        <img></div>
+                    <div class="box">
+                        <img></div>
+                </div>
+
+                <div class="line-two">
+                    <div class="box up dw">
+                        <img></div>
+                    <div class="box lf rt dw up ">
+                        <img></div>
+                    <div class="box up dw">
+                        <img></div>
+                </div>
+
+                <div class="line-three">
+                    <div class="box">
+                        <img></div>
+                    <div class="box lf rt">
+                        <img></div>
+                    <div class="box">
+                        <img></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="../js/jogodavelha.js"></script>
+</body>
+
+</html>

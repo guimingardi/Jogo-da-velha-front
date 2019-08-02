@@ -1,0 +1,252 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    background-image: linear-gradient(to right, #2C2F73, #26A6A6);    
+    font-family: 'Oxygen', sans-serif;
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+header{
+    display: flex;
+    background-color: rgb(51, 79, 156);
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+
+.menu{
+    width: 100%;
+}
+
+li{
+    margin-right: 10px;
+    float: left;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+.menu ul li a:hover{
+    color: black
+}
+
+.menu ul li:nth-child(5){
+    float: right;
+}
+
+.logo{
+    border-radius: 10%;
+    width: 30px;
+    margin-right: 20px
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.container-two, .container-four{
+    /* border: #2C2F73 solid 3px; */
+    height: 300px;
+    margin-top: 5%
+}
+
+.box-one, .box-two,.box-three{
+    /* border: solid 2px; */
+    height: 150px;
+    width: 60%;
+    margin:auto;
+    display: flex;
+}
+
+.box-one{
+    margin-bottom: 3%;
+}
+
+.img-box{
+    width: 50%;
+}
+
+.box-one h2{
+    color: azure;
+    margin-left: 3%;
+    margin-top: 25px
+}
+
+.box-two h2{
+    color: azure;
+    margin-left: 3%
+}
+
+.box-one-dicas, .box-two-dicas{
+    /* border: black solid 1px; */
+    width: 40%;
+    margin: 5%
+}
+
+.box-one-dicas{
+    color: azure;
+}
+
+.box-one-dicas h2{
+    color: bisque
+}
+
+h3{
+    font-size: 15px;
+    margin: 2%
+}
+
+.container-three{
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+}
+
+.box-two-dicas img {
+    width: 100%;
+}
+
+.container-four{
+    justify-content: space-around;
+    display: flex;
+}
+
+.box-one-regras img, .box-two-regras img{
+    width: 35px;
+    margin-bottom: 1%;
+}
+
+.box-two-regras, .box-one-regras{
+/* border: solid; */
+width: 50%;
+height: 100%; 
+text-align: center; 
+padding-top: 50px;
+line-height: 160%
+}
+
+footer{
+    height: 55px;
+    /* border: solid; */
+    background-color: rgb(51, 79, 156);
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.box-social{
+    height: 40px;
+    /* border: solid rgb(255, 0, 0); */
+    width: 5%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.box-social img{
+    width: 40%;
+    margin-right: 5%
+}
+
+.box-copyright{
+    /* border: solid rgb(255, 0, 0); */
+    width: 10%;
+    align-items: center;
+    color: azure;
+    margin-top: px;
+    font-size: 11px
+}
+
+
+.history, .how-to-play, .dicas, .regras {
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+
+.regras {
+    padding-top: 4%;
+    padding-bottom: 8.2%
+}
+
+.history h2{
+    line-height: 20px
+}
+
+.history h1{
+    margin-bottom: 40px
+}
+
+.box-one-video{
+    width: 400px;
+    padding-left: 15%;
+}
+
+.container-two{
+   text-align: center;
+    display: flex
+}
