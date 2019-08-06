@@ -1,9 +1,12 @@
-var express = require('express');
-var app = express();
-const path = require('path');
+const express = require('express')()
+const server = require('http').Server(express)
+const io = require('socket.io')(server)
+const port = 3000
 
-app.use(express.static(__dirname + '/public'));
+io.on('connection', function(socket){
+  console.log(`Tentativa de conexão`)
+})
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+server.listen(port, function(){
+  console.log('listening on *:' + port);
+})
