@@ -22,6 +22,8 @@
             <ul>
                 <li><a href="../index.html" onclick="sair()">Início</a></li>
                 <li> <a href="../index.html" onclick="sair()"> Sair</a></li>
+                <li><a>Você é o jogador <span class="player"></span></a></li>
+
             </ul>
         </nav>
     </header>
@@ -41,32 +43,34 @@
                     <a class="btn-iniciar">Começar Jogo</a>
                 </div>
 
-                <div class="line-one">
-                    <div class="box" data-linha="1" data-coluna="1">
-                        <img>
+                <div class="matriz">
+                    <div class="line-one">
+                        <div class="box" data-index="0">
+                            <img>
+                        </div>
+                        <div class="box lf rt"  data-index="1">
+                            <img></div>
+                        <div class="box"  data-index="2">
+                            <img></div>
                     </div>
-                    <div class="box lf rt" data-linha="1" data-coluna="2">
-                        <img></div>
-                    <div class="box">
-                        <img></div>
-                </div>
 
-                <div class="line-two">
-                    <div class="box up dw">
-                        <img></div>
-                    <div class="box lf rt dw up ">
-                        <img></div>
-                    <div class="box up dw">
-                        <img></div>
-                </div>
+                    <div class="line-two">
+                        <div class="box up dw" data-index="3" >
+                            <img></div>
+                        <div class="box lf rt dw up" data-index="4">
+                            <img></div>
+                        <div class="box up dw" data-index="5">
+                            <img></div>
+                    </div>
 
-                <div class="line-three">
-                    <div class="box">
-                        <img></div>
-                    <div class="box lf rt">
-                        <img></div>
-                    <div class="box">
-                        <img></div>
+                    <div class="line-three">
+                        <div class="box" data-index="6">
+                            <img></div>
+                        <div class="box lf rt" data-index="7">
+                            <img></div>
+                        <div class="box" data-index="8">
+                            <img></div>
+                    </div>
                 </div>
             </div>
         </section>

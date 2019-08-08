@@ -43,7 +43,6 @@ table {
 }
 
 
-
 body{
     background-image: linear-gradient(to right, #2C2F73, #26A6A6);    
     font-family: 'Oxygen', sans-serif;
@@ -103,6 +102,10 @@ section{
     float: right;
 }
 
+.menu ul li:nth-child(3){
+    margin-left: 35%;
+}
+
 .logo{
     border-radius: 10%;
     width: 30px;
@@ -112,6 +115,10 @@ section{
 .line-one, .line-two, .line-three{
     display: flex;
     justify-content: center;
+}
+
+.matriz{
+    display: none
 }
 
 .line-one{
