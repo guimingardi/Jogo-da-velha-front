@@ -114,6 +114,10 @@ section{
     justify-content: center;
 }
 
+.line-one{
+    margin-top: 5%
+}
+
 .box{
     padding: 2%;
     width: 100px;
@@ -171,4 +175,9 @@ img{
 
 .velhaft{
     margin-left: 37%
+}
+
+.btn-iniciar{
+    margin-bottom: 30%;
+    cursor: pointer;
 }
