@@ -188,3 +188,7 @@ img{
     margin-bottom: 30%;
     cursor: pointer;
 }
+
+.restart{
+    cursor: pointer
+}
