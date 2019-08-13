@@ -63,6 +63,8 @@ header{
     top: 0%;
 }
 
+
+
 .menu{
     width: 100%;
 }
@@ -98,18 +100,9 @@ section{
     color: black
 }
 
-.menu ul li:nth-child(2){
-    float: right;
-}
-
-.menu ul li:nth-child(3){
-    margin-left: 35%;
-}
-
 .logo{
     border-radius: 10%;
     width: 30px;
-    margin-right: 20px
 }
 
 .line-one, .line-two, .line-three{
@@ -191,4 +184,13 @@ img{
 
 .restart{
     cursor: pointer
+}
+
+ul{
+    display: flex;
+    justify-content: space-between
+}
+
+.id_play{
+    margin-right: 50px;
 }

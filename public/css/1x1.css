@@ -106,7 +106,6 @@ section{
 .logo{
     border-radius: 10%;
     width: 30px;
-    margin-right: 20px
 }
 
 .line-one, .line-two, .line-three{
@@ -171,4 +170,13 @@ img{
 
 .velhaft{
     margin-left: 37%
+}
+
+ul{
+    display: flex;
+    justify-content: space-between
+}
+
+.id_play{
+    margin-right: 50px;
 }

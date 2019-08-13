@@ -13,6 +13,10 @@ let ganha = document.querySelector('.ganhador')
 let imgGanha = document.querySelector('.trofeu')
 let imgperde = document.querySelector('.velhaft')
 
+ window.addEventListener("beforeunload", function (event) {
+     event.preventDefault()
+ })
+
 
 function verificar() {
 

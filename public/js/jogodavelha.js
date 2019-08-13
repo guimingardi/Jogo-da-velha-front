@@ -13,11 +13,17 @@ let player = document.querySelector('.player')
 const matriz = document.querySelector('.matriz')
 const comecar = document.querySelector('.btn-iniciar')
 comecar.addEventListener('click', iniciar)
+
+// window.addEventListener("beforeunload", function (event) {
+//     event.preventDefault()
+// })
+
+
 const restart = document.querySelector('.restart')
 restart.addEventListener('click', function () {
     pop.style.display = 'none'
     bloco.style.display = 'block'
-    matriz.style.display ='block'
+    matriz.style.display = 'block'
     for (let i = 0; i < box.length; i++) {
         box[i].classList.remove('clicado')
         box[i].classList.remove('bolinha')
@@ -50,6 +56,7 @@ function iniciar() {
 
 socket.on('socket_msg', function (msg) {
     // logica do jogador 2
+    console.log('oioioi')
     if (msg.tipo === 'jogador1' && jogador !== msg.dado) {
         eh_jogador1 = false
         jogador = prompt(`Qual é o seu nome jogador 2?`)
